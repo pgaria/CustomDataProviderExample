@@ -1,0 +1,13 @@
+package com.dataprovider.example2;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+public @interface IndexAnnotation {
+
+    int startIndex() default 0;
+
+    int endIndex() default 0;
+
+}

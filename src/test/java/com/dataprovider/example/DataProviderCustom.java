@@ -9,11 +9,6 @@ import static java.lang.annotation.ElementType.METHOD;
 @Target({METHOD})
 public @interface DataProviderCustom {
 
-    /**
-     * The name of this DataProvider.
-     */
-    String name() default "";
-
     Class<?> dataProviderClass();
 
     int startIndex() default 0;
