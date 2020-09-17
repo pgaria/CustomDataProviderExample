@@ -22,4 +22,4 @@ public void withCustomIndex(String userName, String password) {
     }
 ```    
 
-You can cerate multiple Tests with the Custome Indexes and You can run the tests Parallel as well in the implementation. 
+You can create multiple Tests with the Custome Indexes and You can run the tests Parallel as well in the implementation. 
