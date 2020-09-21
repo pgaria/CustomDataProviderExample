@@ -23,3 +23,5 @@ public void withCustomIndex(String userName, String password) {
 ```    
 
 You can create multiple Tests with the Custome Indexes and You can run the tests Parallel as well in the implementation. 
+
+> To undesratnd more about the solution you can find the article written on my website [here.](https://www.pawangaria.com/post/testng/limit-certain-test-iterations-in-testng-dataprovider/)
